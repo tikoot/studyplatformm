@@ -1,0 +1,1303 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Forum</title>
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+
+  <body>
+    <section>
+      <div class="hidden min-h-full min-[500px]:block">
+        <header class="pb-12 px-[55px]">
+          <div class="">
+            <div class="flex items-center py-5 justify-between px-[45px]">
+              <div>
+                <a href="#">
+                  <img
+                    class="h-8 w-auto"
+                    src="./img/logodesk.png"
+                    alt="Your Company"
+                  />
+                </a>
+              </div>
+            </div>
+            <div>
+              <hr class="h-px bg-gray-200 border-0 dark:bg-gray-700" />
+              <nav class="pt-10">
+                <ul
+                  class="flex items-center justify-between rounded-full lg:px-[272px] px-5 py-6"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                  "
+                >
+                  <li class="flex items-center text-white">
+                    <img
+                      src="./img/ix1.png"
+                      alt=""
+                      class="w-[37px] h-[37px] mr-2 text-base"
+                    />
+                    <a href="#" class="text-xl font-semibold">Home</a>
+                  </li>
+                  <li class="flex items-center text-white">
+                    <img
+                      src="./img/ix2.png"
+                      alt=""
+                      class="w-[37px] h-[37px] mr-2 text-base"
+                    />
+                    <a href="#" class="text-xl font-semibold">Chat</a>
+                  </li>
+                  <li class="flex items-center text-white">
+                    <img
+                      src="./img/ix3.png"
+                      alt=""
+                      class="w-[37px] h-[37px] mr-2 text-base"
+                    /><a href="#" class="text-xl font-semibold">Forum</a>
+                  </li>
+                  <li class="flex items-center text-white">
+                    <img
+                      src="./img/ix4.png"
+                      alt=""
+                      class="w-[37px] h-[37px] mr-2 text-base"
+                    /><a href="#" class="text-xl font-semibold">Events</a>
+                  </li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </header>
+        <main class="px-[77px]">
+          <div class="mb-[30px]">
+            <p
+              class="text-left font-bold text-[30px] pl-3 pb-[18px] text-[#585858]"
+            >
+              Forum
+            </p>
+            <div class="relative mt-1">
+              <div
+                class="absolute inset-y-0 left-4 pl-[15px] flex items-center pointer-events-none mr-2"
+              >
+                <img src="./img/sarch.png" alt="" class="w-[30px] h-[30px]" />
+              </div>
+              <input
+                type="text"
+                class="pl-20 pr-6 py-6 outline-none border-none text-xl w-full rounded-full bg-[#f1f1f1]"
+                placeholder="Search"
+              />
+            </div>
+          </div>
+          <div
+            class="grid grid-cols-3 gap-[59px] py-6 px-[50px] border shadow-lg border-[#afafaf] rounded-[50px]"
+          >
+            <div class="col-span-2">
+              <div class="flex items-center">
+                <button
+                  type="button"
+                  class="inline-flex items-center justify-center rounded-full h-12 w-12 transition duration-500 ease-in-out text-gray-500 focus:outline-none"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                >
+                  <img src="./img/wri.png" alt="" />
+                </button>
+                <p
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                  class="font-bold text-2xl"
+                >
+                  Create a Post
+                </p>
+              </div>
+              <div class="relative mt-1">
+                <input
+                  type="text"
+                  class="pl-4 pr-4 py-6 border border-[#f1f1f1] text-[#f1f1f1] text-2xl w-full rounded-full"
+                  placeholder="Write something....."
+                />
+                <div
+                  class="absolute inset-y-0 right-4 pl-[15px] flex items-center pointer-events-none"
+                >
+                  <img src="./img/asba.png" class="w-[35px] h-[35px]" alt="" />
+                </div>
+              </div>
+              <div class="mt-3 flex items-center">
+                <div class="relative inline-block mr-[20px]">
+                  <select
+                    class="py-2 appearance-none border border-[#f1f1f1] rounded-full text-md px-[70px] text-[#afafaf]"
+                  >
+                    <option value="1">Category</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                  <div
+                    class="absolute inset-y-0 right-[40px] top-1 flex items-center px-2 pointer-events-none"
+                  >
+                    <svg
+                      class="h-6 w-6 text-[#afafaf]"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="relative inline-block">
+                  <select
+                    class="py-2 appearance-none border border-[#f1f1f1] rounded-full text-md px-[70px] text-[#afafaf]"
+                  >
+                    <option value="1">Sub-Category</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                  <div
+                    class="absolute inset-y-0 right-[30px] top-1 flex items-center px-2 pointer-events-none"
+                  >
+                    <svg
+                      class="h-6 w-6 text-[#afafaf]"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="shadow-md mt-6 w-full text-white py-[16px] font-bold px-4 rounded-3xl mr-3 bg-gradient"
+              >
+                Post
+              </button>
+            </div>
+            <div class="col-span-1">
+              <div class="flex items-center">
+                <button
+                  type="button"
+                  class="inline-flex items-center justify-center rounded-full h-12 w-12 transition duration-500 ease-in-out text-gray-500 focus:outline-none"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                >
+                  <img src="./img/wri.png" alt="" />
+                </button>
+                <p
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                  class="font-bold text-2xl"
+                >
+                  Filter Posts
+                </p>
+              </div>
+
+              <div class="mt-3 flex flex-col items-start justify-start">
+                <div class="relative inline-block">
+                  <select
+                    class="py-2 appearance-none border border-[#f1f1f1] rounded-full text-md px-[85px] text-[#afafaf]"
+                  >
+                    <option value="1">Category</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                  <div
+                    class="absolute inset-y-0 right-[40px] flex items-center px-2 pointer-events-none"
+                  >
+                    <svg
+                      class="h-6 w-6 text-[#afafaf]"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+                <div class="relative inline-block pt-[20px] pb-[16px]">
+                  <select
+                    class="py-2 appearance-none border border-[#f1f1f1] rounded-full text-md px-[70px] text-[#afafaf]"
+                  >
+                    <option value="1">Sub-Category</option>
+                    <option value="2">Option 2</option>
+                    <option value="3">Option 3</option>
+                  </select>
+                  <div
+                    class="absolute inset-y-0 right-[30px] top-2 flex items-center px-2 pointer-events-none"
+                  >
+                    <svg
+                      class="h-6 w-6 text-[#afafaf]"
+                      fill="none"
+                      stroke="currentColor"
+                      viewBox="0 0 24 24"
+                      xmlns="http://www.w3.org/2000/svg"
+                    >
+                      <path
+                        stroke-linecap="round"
+                        stroke-linejoin="round"
+                        stroke-width="2"
+                        d="M19 9l-7 7-7-7"
+                      ></path>
+                    </svg>
+                  </div>
+                </div>
+              </div>
+              <button
+                class="shadow-md mt-8 w-full text-white py-[16px] font-bold px-4 rounded-3xl mr-3 bg-gradient"
+              >
+                Select
+              </button>
+            </div>
+          </div>
+          <div
+            class="px-[85px] mt-[36px] overflow-y-auto max-w-[1024px] mx-auto pt-[36px]"
+            style="max-height: calc(100vh - 250px)"
+          >
+            <div
+              class="card rounded-[40px] p-5 mb-6"
+              style="box-shadow: 0px 2px 6px 0px #00000040"
+            >
+              <div class="flex items-center justify-between">
+                <div class="flex items-center justify-between">
+                  <img src="./img/usersm.png" alt="" />
+                  <div class="pl-[9px]">
+                    <h1
+                      class="text-[15px] font-medium"
+                      style="
+                        background: linear-gradient(
+                          180deg,
+                          #ff6535 0%,
+                          #ff9e48 48.9%,
+                          #ffce58 100%
+                        );
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                      "
+                    >
+                      Name
+                    </h1>
+                    <p class="text-[11px] font-normal text-[#2c2c2c]">
+                      6 hours ago
+                    </p>
+                  </div>
+                </div>
+
+                <button>
+                  <img src="./img/report.png" class="w-6 h-8" alt="" />
+                </button>
+              </div>
+              <div class="pt-[10px]">
+                <h2
+                  class="text-[14px] font-normal"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                >
+                  Category/ Sub-category
+                </h2>
+                <h1
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                  class="text-[15px] font-medium"
+                >
+                  Title
+                </h1>
+                <p class="text-[11px] font-normal text-[#585858] pb-[10px]">
+                  Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos. Curabitur tempus urna at
+                  turpis condimentum lobortis.
+                </p>
+              </div>
+              <div class="flex items-center justify-start">
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/lk.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    2365
+                  </p>
+                </div>
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/com.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    1325
+                  </p>
+                </div>
+                <div class="flex items-center">
+                  <img src="./img/share.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    125
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card rounded-[40px] p-5 mb-6"
+              style="box-shadow: 0px 2px 6px 0px #00000040"
+            >
+              <div class="flex items-center justify-between">
+                <div class="flex items-center justify-between">
+                  <img src="./img/usersm.png" alt="" />
+                  <div class="pl-[9px]">
+                    <h1
+                      class="text-[15px] font-medium"
+                      style="
+                        background: linear-gradient(
+                          180deg,
+                          #ff6535 0%,
+                          #ff9e48 48.9%,
+                          #ffce58 100%
+                        );
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                      "
+                    >
+                      Name
+                    </h1>
+                    <p class="text-[11px] font-normal text-[#2c2c2c]">
+                      6 hours ago
+                    </p>
+                  </div>
+                </div>
+
+                <button>
+                  <img src="./img/report.png" class="w-6 h-8" alt="" />
+                </button>
+              </div>
+              <div class="pt-[10px]">
+                <h2
+                  class="text-[14px] font-normal"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                >
+                  Category/ Sub-category
+                </h2>
+                <h1
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                  class="text-[15px] font-medium"
+                >
+                  Title
+                </h1>
+                <p class="text-[11px] font-normal text-[#585858] pb-[10px]">
+                  Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos. Curabitur tempus urna at
+                  turpis condimentum lobortis.
+                </p>
+              </div>
+              <div class="flex items-center justify-start">
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/lk.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    2365
+                  </p>
+                </div>
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/com.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    1325
+                  </p>
+                </div>
+                <div class="flex items-center">
+                  <img src="./img/share.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    125
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card rounded-[40px] p-5 mb-6"
+              style="box-shadow: 0px 2px 6px 0px #00000040"
+            >
+              <div class="flex items-center justify-between">
+                <div class="flex items-center justify-between">
+                  <img src="./img/usersm.png" alt="" />
+                  <div class="pl-[9px]">
+                    <h1
+                      class="text-[15px] font-medium"
+                      style="
+                        background: linear-gradient(
+                          180deg,
+                          #ff6535 0%,
+                          #ff9e48 48.9%,
+                          #ffce58 100%
+                        );
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                      "
+                    >
+                      Name
+                    </h1>
+                    <p class="text-[11px] font-normal text-[#2c2c2c]">
+                      6 hours ago
+                    </p>
+                  </div>
+                </div>
+
+                <button>
+                  <img src="./img/report.png" class="w-6 h-8" alt="" />
+                </button>
+              </div>
+              <div class="pt-[10px]">
+                <h2
+                  class="text-[14px] font-normal"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                >
+                  Category/ Sub-category
+                </h2>
+                <h1
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                  class="text-[15px] font-medium"
+                >
+                  Title
+                </h1>
+                <p class="text-[11px] font-normal text-[#585858] pb-[10px]">
+                  Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos. Curabitur tempus urna at
+                  turpis condimentum lobortis.
+                </p>
+              </div>
+              <div class="flex items-center justify-start">
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/lk.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    2365
+                  </p>
+                </div>
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/com.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    1325
+                  </p>
+                </div>
+                <div class="flex items-center">
+                  <img src="./img/share.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    125
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card rounded-[40px] p-5 mb-6"
+              style="box-shadow: 0px 2px 6px 0px #00000040"
+            >
+              <div class="flex items-center justify-between">
+                <div class="flex items-center justify-between">
+                  <img src="./img/usersm.png" alt="" />
+                  <div class="pl-[9px]">
+                    <h1
+                      class="text-[15px] font-medium"
+                      style="
+                        background: linear-gradient(
+                          180deg,
+                          #ff6535 0%,
+                          #ff9e48 48.9%,
+                          #ffce58 100%
+                        );
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                      "
+                    >
+                      Name
+                    </h1>
+                    <p class="text-[11px] font-normal text-[#2c2c2c]">
+                      6 hours ago
+                    </p>
+                  </div>
+                </div>
+
+                <button>
+                  <img src="./img/report.png" class="w-6 h-8" alt="" />
+                </button>
+              </div>
+              <div class="pt-[10px]">
+                <h2
+                  class="text-[14px] font-normal"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                >
+                  Category/ Sub-category
+                </h2>
+                <h1
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                  class="text-[15px] font-medium"
+                >
+                  Title
+                </h1>
+                <p class="text-[11px] font-normal text-[#585858] pb-[10px]">
+                  Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos. Curabitur tempus urna at
+                  turpis condimentum lobortis.
+                </p>
+              </div>
+              <div class="flex items-center justify-start">
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/lk.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    2365
+                  </p>
+                </div>
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/com.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    1325
+                  </p>
+                </div>
+                <div class="flex items-center">
+                  <img src="./img/share.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    125
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </main>
+        <footer
+          class="bg-cover bg-no-repeat h-[370px] w-full absolute z-50"
+          style="background-image: url('./img/desktop-bg.png')"
+        >
+          <div class="pt-[180px] px-[50px]">
+            <div class="flex items-center justify-end">
+              <img src="./img/fb.png" class="mr-[45px]" alt="" />
+              <img src="./img/lnk.png" alt="" class="mr-[45px]" />
+              <img src="./img/x icon.png" alt="" />
+            </div>
+
+            <div class="flex items-center pt-[50px] justify-between">
+              <p class="text-white text-2xl font-semibold">
+                © CareerGuidanceBuddy. All Rights Reserved.
+              </p>
+              <nav>
+                <ul class="flex items-center text-white text-[20px] font-light">
+                  <li class="mr-[35px]">Terms & Conditions</li>
+                  <li class="mr-[35px]">Privacy Policy</li>
+                  <li>Help & Support</li>
+                </ul>
+              </nav>
+            </div>
+          </div>
+        </footer>
+      </div>
+
+      <div
+        class="min-[500px]:hidden flex flex-col gap-2 font-primary items-center justify-center min-h-screen"
+      >
+        <!-- header background section -->
+        <div
+          class="bg-cover bg-center bg-no-repeat w-screen h-[280px] min-w-screen fixed top-0"
+          style="background-image: url('./img/background-2.png')"
+        >
+          <div class="flex justify-center items-center pt-[48px]">
+            <img src="./img/logo.png" alt="logo" class="" />
+          </div>
+        </div>
+
+        <div class="mt-[200px] flex flex-col items-center h-screen mx-2">
+          <!-- post component -->
+          <div
+            id="cards"
+            class="overflow-y-auto py-5 flex flex-col items-center space-y-[28px] px-2"
+            style="max-height: calc(100vh - 360px)"
+          >
+            <div
+              class="card rounded-[40px] p-5"
+              style="box-shadow: 0px 2px 6px 0px #00000040"
+            >
+              <div class="flex items-center justify-between">
+                <div class="flex items-center justify-between">
+                  <img src="./img/usersm.png" alt="" />
+                  <div class="pl-[9px]">
+                    <h1
+                      class="text-[15px] font-medium"
+                      style="
+                        background: linear-gradient(
+                          180deg,
+                          #ff6535 0%,
+                          #ff9e48 48.9%,
+                          #ffce58 100%
+                        );
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                      "
+                    >
+                      Name
+                    </h1>
+                    <p class="text-[11px] font-normal text-[#2c2c2c]">
+                      6 hours ago
+                    </p>
+                  </div>
+                </div>
+
+                <button>
+                  <img src="./img/report.png" class="w-6 h-8" alt="" />
+                </button>
+              </div>
+              <div class="flex flex-col gap-2 pt-[10px]">
+                <h2
+                  class="text-[14px] font-normal"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                >
+                  Category/ Sub-category
+                </h2>
+                <h1
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                  class="text-[15px] font-medium"
+                >
+                  Title
+                </h1>
+                <img src="./img/postdemo.jpg" class="rounded-lg bg-contain" />
+                <p class="text-[11px] font-normal text-[#585858] pb-[10px]">
+                  Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos. Curabitur tempus urna at
+                  turpis condimentum lobortis.
+                </p>
+              </div>
+              <div class="flex items-center justify-start">
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/lk.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    2365
+                  </p>
+                </div>
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/com.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    1325
+                  </p>
+                </div>
+                <div class="flex items-center">
+                  <img src="./img/share.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    125
+                  </p>
+                </div>
+              </div>
+            </div>
+            <div
+              class="card rounded-[40px] p-5 mb-6"
+              style="box-shadow: 0px 2px 6px 0px #00000040"
+            >
+              <div class="flex items-center justify-between">
+                <div class="flex items-center justify-between">
+                  <img src="./img/usersm.png" alt="" />
+                  <div class="pl-[9px]">
+                    <h1
+                      class="text-[15px] font-medium"
+                      style="
+                        background: linear-gradient(
+                          180deg,
+                          #ff6535 0%,
+                          #ff9e48 48.9%,
+                          #ffce58 100%
+                        );
+                        -webkit-background-clip: text;
+                        -webkit-text-fill-color: transparent;
+                      "
+                    >
+                      Name
+                    </h1>
+                    <p class="text-[11px] font-normal text-[#2c2c2c]">
+                      6 hours ago
+                    </p>
+                  </div>
+                </div>
+
+                <button>
+                  <img src="./img/report.png" class="w-6 h-8" alt="" />
+                </button>
+              </div>
+              <div class="pt-[10px]">
+                <h2
+                  class="text-[14px] font-normal"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                >
+                  Category/ Sub-category
+                </h2>
+                <h1
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                  class="text-[15px] font-medium"
+                >
+                  Title
+                </h1>
+                <p class="text-[11px] font-normal text-[#585858] pb-[10px]">
+                  Gorem ipsum dolor sit amet, consectetur adipiscing elit. Nunc
+                  vulputate libero et velit interdum, ac aliquet odio mattis.
+                  Class aptent taciti sociosqu ad litora torquent per conubia
+                  nostra, per inceptos himenaeos. Curabitur tempus urna at
+                  turpis condimentum lobortis.
+                </p>
+              </div>
+              <div class="flex items-center justify-start">
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/lk.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    2365
+                  </p>
+                </div>
+                <div class="flex items-center pr-[15px]">
+                  <img src="./img/com.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    1325
+                  </p>
+                </div>
+                <div class="flex items-center">
+                  <img src="./img/share.png" alt="" />
+                  <p
+                    class="pl-[6px] text-[11px] font-normal"
+                    style="
+                      background: linear-gradient(
+                        180deg,
+                        #ff6535 0%,
+                        #ff9e48 48.9%,
+                        #ffce58 100%
+                      );
+                      -webkit-background-clip: text;
+                      -webkit-text-fill-color: transparent;
+                    "
+                  >
+                    125
+                  </p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Filter posts (This will open when the filter icon beside creat post input is clicked)-->
+          <div
+            class="flex flex-col w-full items-center fixed bottom-36 left-0 mt-[-70px] bg-white rounded-lg"
+          >
+            <h1
+              class="text-[20px] font-semibold text-left"
+              style="
+                background: linear-gradient(
+                  180deg,
+                  #ff6535 0%,
+                  #ff9e48 48.9%,
+                  #ffce58 100%
+                );
+                -webkit-background-clip: text;
+                -webkit-text-fill-color: transparent;
+              "
+            >
+              Filter Posts:
+            </h1>
+            <div class="flex items-center mt-1 mx-2">
+              <div
+                class="flex items-center justify-between px-2 py-2 border border-orange-500 rounded-full w-full mr-2"
+              >
+                <div class="relative w-1/2">
+                  <select
+                    class="focus:outline-none bg-no-repeat text-md w-full py-2 rounded-md"
+                  >
+                    <option value="" class="w-full">Category</option>
+                    <option value="Preschool">Preschool/Kindergarten</option>
+                    <option value="Middle School">Middle School</option>
+                    <option value="High School">High School</option>
+                    <option value="Vocational Trainings/ Job Oriented Training">
+                      Vocational Trainings/ Job Oriented Training
+                    </option>
+                    <option value="Bachelor's Degree">Bachelor's Degree</option>
+                  </select>
+                </div>
+                <div class="relative w-1/2">
+                  <select
+                    class="focus:outline-none py-2 w-full text-md bg-no-repeat rounded-md"
+                  >
+                    <option value="" class="w-fit">Subcategory</option>
+                    <option class="w-screen">Reading</option>
+                    <option class="w-screen">Writing</option>
+                    <option class="w-screen">Rhymes</option>
+                  </select>
+                </div>
+              </div>
+              <img
+                src="./img/check.png"
+                alt=""
+                class="w-8 h-10 cursor-pointer"
+              />
+            </div>
+          </div>
+
+          <!-- Filter Tags (The selected category and subcategory from filters will be shown here)-->
+          <div class="fixed top-[150px] flex items-center justify-center">
+            <div
+              class="rounded-full px-2 py-[10px] flex justify-center items-center bg-white mr-5 shadow-md"
+            >
+              <p
+                class="pr-2 text-[15px] font-medium"
+                style="
+                  background: linear-gradient(
+                    180deg,
+                    #ff6535 0%,
+                    #ff9e48 48.9%,
+                    #ffce58 100%
+                  );
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                "
+              >
+                High School
+              </p>
+              <img src="./img/x.png" alt="" />
+            </div>
+            <div
+              class="rounded-full px-2 py-[10px] flex items-center bg-white shadow-md"
+            >
+              <p
+                class="pr-2 text-[15px] font-medium"
+                style="
+                  background: linear-gradient(
+                    180deg,
+                    #ff6535 0%,
+                    #ff9e48 48.9%,
+                    #ffce58 100%
+                  );
+                  -webkit-background-clip: text;
+                  -webkit-text-fill-color: transparent;
+                "
+              >
+                Maths
+              </p>
+              <img src="./img/x.png" alt="" />
+            </div>
+          </div>
+
+          <!-- New post create input -->
+          <div
+            class="flex justify-center items-center fixed left-0 bottom-20 gap-1 px-4 w-full mb-2"
+          >
+            <div class="relative flex w-full">
+              <span class="absolute inset-y-0 flex items-center">
+                <button
+                  type="button"
+                  class="inline-flex items-center justify-center rounded-full h-12 w-12 transition duration-500 ease-in-out text-gray-500 focus:outline-none"
+                  style="
+                    background: linear-gradient(
+                      180deg,
+                      #ff6535 0%,
+                      #ff9e48 48.9%,
+                      #ffce58 100%
+                    );
+                    -webkit-background-clip: text;
+                    -webkit-text-fill-color: transparent;
+                  "
+                >
+                  <img src="./img/wri.png" alt="" />
+                </button>
+              </span>
+
+              <div class="p-[1px] rounded-full w-full mr-1 input-wrap">
+                <input
+                  type="text"
+                  placeholder="Create a post"
+                  class="w-full rounded-full focus:outline-none text-sm focus:placeholder-[#afafaf] text-[#afafaf] placeholder-[#afafaf] pl-12 bg-white border border-orange-400 py-3"
+                />
+              </div>
+            </div>
+            <button type="button" class="mx-2 w-[22px] h-[20px]">
+              <img src="./img/icons 3.png" alt="" class="w-[22px] h-[20px]" />
+            </button>
+            <button type="button" class="w-[22px] h-[20px]">
+              <img src="./img/lines.png" alt="" class="w-[22px] h-[20px]" />
+            </button>
+          </div>
+
+          <!-- Menu bottom -->
+          <div
+            style="
+              background: linear-gradient(
+                180deg,
+                #ff6535 0%,
+                #ff9e48 48.9%,
+                #ffce58 100%
+              );
+              position: fixed;
+              bottom: 0;
+            "
+            class="flex flex-row justify-between shadow-md items-center px-[32px] rounded-[100px] w-11/12 h-[64px] mb-3"
+          >
+            <img src="./img/4.png" alt="" />
+            <img src="./img/dis.png" alt="" />
+            <img src="./img/peeep.png" />
+            <img src="./img/3.png" />
+          </div>
+        </div>
+
+        <script>
+          const el = document.getElementById("cards");
+          el.scrollTop = el.scrollHeight;
+        </script>
+      </div>
+    </section>
+  </body>
+</html>
